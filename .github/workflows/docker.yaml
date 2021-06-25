@@ -23,7 +23,7 @@ jobs:
         context: ./
         file: ./Dockerfile
         push: true
-        tags: ${{ secrets.DOCKER_HUB_USERNAME }}/website:${{ steps.date.outputs.date }}
+        tags: ${{ secrets.DOCKER_HUB_USERNAME }}/user-service-api:${{ steps.date.outputs.date }}
 
   
         
